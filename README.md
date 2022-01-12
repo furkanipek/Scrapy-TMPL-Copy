@@ -8,7 +8,7 @@
 
 > It is a small tool for copying template files for "scrapy genspider".
 
-> After you put your own template files in the tmpl folder, you can send the files to scrapy with "tmpsetup.py".
+> After you put your own template files in the tmpl folder, you can send the files to scrapy with "tmplsetup.py".
 
 ## Example Usage
 
