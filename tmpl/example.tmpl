@@ -1,0 +1,14 @@
+import scrapy
+import json
+
+class $classname(scrapy.Spider):
+    name = '$name'
+    allowed_domains = ['$domain']
+    start_urls = ['http://$domain/']
+
+    def parse(self, response):
+        Data = {
+            'URL'         : response.url
+        }
+        
+        print(json.dumps(Data, indent=4, sort_keys=True))
