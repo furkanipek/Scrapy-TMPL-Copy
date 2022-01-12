@@ -27,6 +27,7 @@ python3 -m venv menv
 pip install scrapy
 
 # ADD My TMPL Copy
+git clone https://github.com/furkanipek/Scrapy-TMPL-Copy.git
 
 # Create your own template in the tmpl folder.
 
